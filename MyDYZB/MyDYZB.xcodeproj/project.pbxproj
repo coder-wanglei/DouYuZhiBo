@@ -11,6 +11,12 @@
 		CD7E84FC1E73F1F0000E6573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7E84FA1E73F1F0000E6573 /* Main.storyboard */; };
 		CD7E84FE1E73F1F0000E6573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7E84FD1E73F1F0000E6573 /* Assets.xcassets */; };
 		CD7E85011E73F1F0000E6573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7E84FF1E73F1F0000E6573 /* LaunchScreen.storyboard */; };
+		CD7E85101E741BDC000E6573 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7E850F1E741BDC000E6573 /* Home.storyboard */; };
+		CD7E85121E741C20000E6573 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7E85111E741C20000E6573 /* Live.storyboard */; };
+		CD7E85171E741C69000E6573 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7E85161E741C69000E6573 /* Follow.storyboard */; };
+		CD7E851C1E741D3C000E6573 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7E851B1E741D3C000E6573 /* Discover.storyboard */; };
+		CD7E851E1E741D56000E6573 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7E851D1E741D56000E6573 /* Profile.storyboard */; };
+		CD7E85201E741F19000E6573 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7E851F1E741F19000E6573 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		CD7E84FD1E73F1F0000E6573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD7E85001E73F1F0000E6573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD7E85021E73F1F0000E6573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7E850F1E741BDC000E6573 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		CD7E85111E741C20000E6573 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		CD7E85161E741C69000E6573 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		CD7E851B1E741D3C000E6573 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		CD7E851D1E741D56000E6573 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		CD7E851F1E741F19000E6573 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +66,6 @@
 			children = (
 				CD7E85081E740108000E6573 /* Classes */,
 				CD7E84F61E73F1F0000E6573 /* AppDelegate.swift */,
-				CD7E84FA1E73F1F0000E6573 /* Main.storyboard */,
 				CD7E84FD1E73F1F0000E6573 /* Assets.xcassets */,
 				CD7E84FF1E73F1F0000E6573 /* LaunchScreen.storyboard */,
 				CD7E85021E73F1F0000E6573 /* Info.plist */,
@@ -69,6 +80,7 @@
 				CD7E850A1E740108000E6573 /* Home */,
 				CD7E850B1E740108000E6573 /* Live */,
 				CD7E85091E740108000E6573 /* Follow */,
+				CD7E851A1E741CFF000E6573 /* Discover */,
 				CD7E850D1E740108000E6573 /* Profile */,
 				CD7E850E1E740108000E6573 /* Tools */,
 			);
@@ -78,6 +90,7 @@
 		CD7E85091E740108000E6573 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				CD7E85161E741C69000E6573 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -85,6 +98,7 @@
 		CD7E850A1E740108000E6573 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CD7E850F1E741BDC000E6573 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -92,6 +106,7 @@
 		CD7E850B1E740108000E6573 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				CD7E85111E741C20000E6573 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -99,6 +114,8 @@
 		CD7E850C1E740108000E6573 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				CD7E84FA1E73F1F0000E6573 /* Main.storyboard */,
+				CD7E851F1E741F19000E6573 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -106,6 +123,7 @@
 		CD7E850D1E740108000E6573 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				CD7E851D1E741D56000E6573 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -115,6 +133,14 @@
 			children = (
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		CD7E851A1E741CFF000E6573 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				CD7E851B1E741D3C000E6573 /* Discover.storyboard */,
+			);
+			path = Discover;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +205,12 @@
 			files = (
 				CD7E85011E73F1F0000E6573 /* LaunchScreen.storyboard in Resources */,
 				CD7E84FE1E73F1F0000E6573 /* Assets.xcassets in Resources */,
+				CD7E851E1E741D56000E6573 /* Profile.storyboard in Resources */,
 				CD7E84FC1E73F1F0000E6573 /* Main.storyboard in Resources */,
+				CD7E85121E741C20000E6573 /* Live.storyboard in Resources */,
+				CD7E85101E741BDC000E6573 /* Home.storyboard in Resources */,
+				CD7E851C1E741D3C000E6573 /* Discover.storyboard in Resources */,
+				CD7E85171E741C69000E6573 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD7E84F71E73F1F0000E6573 /* AppDelegate.swift in Sources */,
+				CD7E85201E741F19000E6573 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +235,7 @@
 				CD7E84FB1E73F1F0000E6573 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CD7E84FF1E73F1F0000E6573 /* LaunchScreen.storyboard */ = {
