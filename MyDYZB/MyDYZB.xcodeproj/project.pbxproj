@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CD7E84F71E73F1F0000E6573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7E84F61E73F1F0000E6573 /* AppDelegate.swift */; };
-		CD7E84F91E73F1F0000E6573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7E84F81E73F1F0000E6573 /* ViewController.swift */; };
 		CD7E84FC1E73F1F0000E6573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7E84FA1E73F1F0000E6573 /* Main.storyboard */; };
 		CD7E84FE1E73F1F0000E6573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7E84FD1E73F1F0000E6573 /* Assets.xcassets */; };
 		CD7E85011E73F1F0000E6573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7E84FF1E73F1F0000E6573 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		CD7E84F31E73F1F0000E6573 /* MyDYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7E84F61E73F1F0000E6573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD7E84F81E73F1F0000E6573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD7E84FB1E73F1F0000E6573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD7E84FD1E73F1F0000E6573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD7E85001E73F1F0000E6573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,69 @@
 		CD7E84F51E73F1F0000E6573 /* MyDYZB */ = {
 			isa = PBXGroup;
 			children = (
+				CD7E85081E740108000E6573 /* Classes */,
 				CD7E84F61E73F1F0000E6573 /* AppDelegate.swift */,
-				CD7E84F81E73F1F0000E6573 /* ViewController.swift */,
 				CD7E84FA1E73F1F0000E6573 /* Main.storyboard */,
 				CD7E84FD1E73F1F0000E6573 /* Assets.xcassets */,
 				CD7E84FF1E73F1F0000E6573 /* LaunchScreen.storyboard */,
 				CD7E85021E73F1F0000E6573 /* Info.plist */,
 			);
 			path = MyDYZB;
+			sourceTree = "<group>";
+		};
+		CD7E85081E740108000E6573 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD7E850C1E740108000E6573 /* Main */,
+				CD7E850A1E740108000E6573 /* Home */,
+				CD7E850B1E740108000E6573 /* Live */,
+				CD7E85091E740108000E6573 /* Follow */,
+				CD7E850D1E740108000E6573 /* Profile */,
+				CD7E850E1E740108000E6573 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CD7E85091E740108000E6573 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		CD7E850A1E740108000E6573 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CD7E850B1E740108000E6573 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		CD7E850C1E740108000E6573 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CD7E850D1E740108000E6573 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CD7E850E1E740108000E6573 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +149,7 @@
 				TargetAttributes = {
 					CD7E84F21E73F1F0000E6573 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W6KE3T24WR;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,7 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7E84F91E73F1F0000E6573 /* ViewController.swift in Sources */,
 				CD7E84F71E73F1F0000E6573 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,11 +313,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = W6KE3T24WR;
 				INFOPLIST_FILE = MyDYZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wanglei.BaseProject.MyDYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -272,11 +329,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = W6KE3T24WR;
 				INFOPLIST_FILE = MyDYZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wanglei.BaseProject.MyDYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
