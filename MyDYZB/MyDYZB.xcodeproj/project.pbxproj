@@ -18,6 +18,8 @@
 		CD7E853C1E742540000E6573 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7E853B1E742540000E6573 /* Home.storyboard */; };
 		CD7E853E1E742583000E6573 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7E853D1E742583000E6573 /* MainViewController.swift */; };
 		CD7E85401E742606000E6573 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7E853F1E742606000E6573 /* HomeViewController.swift */; };
+		CD7E85431E7434AA000E6573 /* UIBarButtonItem-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7E85421E7434AA000E6573 /* UIBarButtonItem-Extention.swift */; };
+		CD7E85451E743DE1000E6573 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7E85441E743DE1000E6573 /* PageTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		CD7E853B1E742540000E6573 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		CD7E853D1E742583000E6573 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CD7E853F1E742606000E6573 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD7E85421E7434AA000E6573 /* UIBarButtonItem-Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extention.swift"; sourceTree = "<group>"; };
+		CD7E85441E743DE1000E6573 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,7 @@
 		CD7E850E1E740108000E6573 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				CD7E85411E743455000E6573 /* Extention */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 		CD7E85231E74247A000E6573 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CD7E85441E743DE1000E6573 /* PageTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,6 +296,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		CD7E85411E743455000E6573 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				CD7E85421E7434AA000E6573 /* UIBarButtonItem-Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -370,7 +384,9 @@
 			files = (
 				CD7E853E1E742583000E6573 /* MainViewController.swift in Sources */,
 				CD7E84F71E73F1F0000E6573 /* AppDelegate.swift in Sources */,
+				CD7E85451E743DE1000E6573 /* PageTitleView.swift in Sources */,
 				CD7E85401E742606000E6573 /* HomeViewController.swift in Sources */,
+				CD7E85431E7434AA000E6573 /* UIBarButtonItem-Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
