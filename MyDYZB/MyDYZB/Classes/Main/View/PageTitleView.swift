@@ -143,7 +143,7 @@ extension PageTitleView{
 //MARK:对外暴露的方法
 extension PageTitleView{
     func setTitleWithProgress(pregress:CGFloat,sourceIndex:Int,targetIndex:Int) {
-        
+        //设置
     }
 
 }
